@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App</title>
+    <title>Астроклуб - Место Силы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
@@ -11,10 +17,750 @@
     <link rel="stylesheet" href="./src/css/styles.css" />
   </head>
   <body>
-    <header class="header"><div class="container"></div></header>
     <main>
-      <section></section>
+      <section class="hero">
+        <div class="container">
+          <h3 class="subtitle">Астроклуб</h3>
+          <h1 class="title">Место Силы</h1>
+          <p class="desc">
+            Летний сезон поддержки, уверенности и внутренней опоры с Викторией
+          </p>
+          <div class="marquee-container">
+            <p class="marquee-text">Май – Август 2025</p>
+          </div>
+          <div class="btn-container">
+            <a class="btn-more" href="">Подробнее о клубе</a
+            ><a class="btn-buy" href="">Присоединиться в клуб</a>
+          </div>
+        </div>
+      </section>
+      <section class="power">
+        <div class="container">
+          <h2 class="title">"Место Силы" — это не точка на карте</h2>
+          <p class="desc">
+            Это состояние, к которому мы возвращаемся. Это внутреннее
+            <span>"я знаю, где мой путь"</span>
+          </p>
+          <picture
+            ><source
+              srcset="
+                ./src/img/power/image-1x.png 1x,
+                ./src/img/power/image-2x.png 2x
+              "
+              width="90"
+              height="auto" />
+            <img
+              class="power-img"
+              src="./src/img/power/image-1x.png"
+              alt="emoji"
+              width="90"
+              height="auto"
+          /></picture>
+          <div class="power-wrapper">
+            <h3 class="wrapper-title">Этот клуб — не про трансформации</h3>
+            <p class="power-desc">
+              Он — про ясность, устойчивость и доверие к себе
+            </p>
+            <p class="power-text">
+              В нём ты не останешься одна — всё лето рядом будет Виктория,
+              прогнозы, поддержка и нежное сопровождение
+            </p>
+          </div>
+          <div class="video-wrapper">
+            <iframe
+              width="100%"
+              height="606px"
+              src="https://www.youtube.com/embed/ZoCc1TTMQOU?si=MeC5vjS8_eqnORiS"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="inside">
+        <div class="container">
+          <div class="marquee-container">
+            <p class="marquee-text">Что внутри?</p>
+          </div>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-01-1x.png 1x,
+                    ./src/img/inside/inside-01-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-01-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Прогнозы на месяц и ключевые астрособытия</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-02-1x.png 1x,
+                    ./src/img/inside/inside-02-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-02-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Эфиры вживую и в записи</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-03-1x.png 1x,
+                    ./src/img/inside/inside-03-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-03-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Поддержка и чат с Викторией</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-04-1x.png 1x,
+                    ./src/img/inside/inside-04-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-04-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Диагностики и личные рекомендации</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-05-1x.png 1x,
+                    ./src/img/inside/inside-05-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-05-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Мини-разборы карты (по тарифу)</p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/inside/inside-06-1x.png 1x,
+                    ./src/img/inside/inside-06-2x.png 2x
+                  "
+                  width="32"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/inside/inside-06-1x.png"
+                  alt="emoji"
+                  width="32"
+                  height="auto"
+              /></picture>
+              <p class="item-text">Возможность консультации (по тарифу)</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="program">
+        <div class="container">
+          <h2 class="title">программа</h2>
+          <p class="subtitle">по месяцам</p>
+          <div class="program-container">
+            <ul class="program-list list">
+              <li class="program-item">
+                <div class="program-title-container">
+                  <div class="title-text">
+                    <p class="program-item-title">МАЙ</p>
+                    <p class="program-item-text">
+                      Перенастройка. Вход в пространство силы
+                    </p>
+                  </div>
+                  <div class="program-item-svg"></div>
+                </div>
+                <div class="program-answer-container">
+                  <div class="program-wrapper">
+                    <ul class="answer-list">
+                      <li class="answer-item">
+                        Астрологическая самодиагностика
+                      </li>
+                      <li class="answer-item">
+                        Юпитер, Раху, Кету — ключевые поворотные энергии
+                      </li>
+                      <li class="answer-item">
+                        Персональная настройка на сезон
+                      </li>
+                      <li class="answer-item">
+                        Первое послание от Виктории <br />
+                        → чтобы начать не с нуля, а с ясности
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="program-item">
+                <div class="program-title-container">
+                  <div class="title-text">
+                    <p class="program-item-title">ИЮНЬ</p>
+                    <p class="program-item-text">
+                      Поток. Внутреннее изобилие и движение энергии
+                    </p>
+                  </div>
+                  <div class="program-item-svg"></div>
+                </div>
+                <div class="program-answer-container">
+                  <div class="program-wrapper">
+                    <ul class="answer-list">
+                      <li class="answer-item">
+                        Финансовая астрология и денежное мышление
+                      </li>
+                      <li class="answer-item">
+                        Причины “перекрытий” и как их увидеть в карте
+                      </li>
+                      <li class="answer-item">
+                        Практики открытия ресурса <br />
+                        → чтобы почувствовать внутренний поток и начать
+                        принимать
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="program-item">
+                <div class="program-title-container">
+                  <div class="title-text">
+                    <p class="program-item-title">ИЮлЬ</p>
+                    <p class="program-item-text">
+                      Присутствие. Близость к себе и к другим
+                    </p>
+                  </div>
+                  <div class="program-item-svg"></div>
+                </div>
+                <div class="program-answer-container">
+                  <div class="program-wrapper">
+                    <ul class="answer-list">
+                      <li class="answer-item">
+                        Отношения, личное счастье, совместимость
+                      </li>
+                      <li class="answer-item">
+                        Формула любви в натальной карте
+                      </li>
+                      <li class="answer-item">
+                        Женские роли и принятие себя <br />
+                        → чтобы быть в контакте с собой и строить гармонию
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="program-item">
+                <div class="program-title-container">
+                  <div class="title-text">
+                    <p class="program-item-title">август</p>
+                    <p class="program-item-text">
+                      Опора. Возвращение личной силы
+                    </p>
+                  </div>
+                  <div class="program-item-svg"></div>
+                </div>
+                <div class="program-answer-container">
+                  <div class="program-wrapper">
+                    <ul class="answer-list">
+                      <li class="answer-item">
+                        Уверенность, предназначение, реализация
+                      </li>
+                      <li class="answer-item">Разбор точки силы в карте</li>
+                      <li class="answer-item">
+                        Подготовка к осеннему циклу и затмениям <br />
+                        → чтобы встать на свою опору и двигаться с ясностью
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="tariffs">
+        <div class="container">
+          <h2 class="title">Тарифы</h2>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/tariffs/tarif-01-1x.png 1x,
+                    ./src/img/tariffs/tarif-01-2x.png 2x
+                  "
+                  width="180"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/tariffs/tarif-01-1x.png"
+                  alt="image"
+                  width="180"
+                  height="auto"
+              /></picture>
+              <p class="item-title">LITE</p>
+              <p class="item-text">Участие в клубе с мая по август:</p>
+              <ul class="include-list">
+                <li class="include-item">
+                  <p class="include-text">
+                    Прогнозы на месяц и ключевые астрособытия
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Эфиры и тематические вебинары</p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Доступ к Telegram-каналу и чату клуба
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Задания и материалы по темам месяца
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Записи всех встреч</p>
+                </li>
+              </ul>
+              <p class="price"><span>$449</span> $149</p>
+              <button class="buy" type="button">купить LITE</button>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/tariffs/tarif-02-1x.png 1x,
+                    ./src/img/tariffs/tarif-02-2x.png 2x
+                  "
+                  width="180"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/tariffs/tarif-02-1x.png"
+                  alt="image"
+                  width="180"
+                  height="auto"
+              /></picture>
+              <p class="item-title">OPTIMAL</p>
+              <p class="item-text">Участие в клубе с мая по август:</p>
+              <ul class="include-list mzero">
+                <li class="include-item">
+                  <p class="include-text">
+                    Прогнозы на месяц и ключевые астрособытия
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Эфиры и тематические вебинары</p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Доступ к Telegram-каналу и чату клуба
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Задания и материалы по темам месяца
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Записи всех встреч</p>
+                </li>
+              </ul>
+              <p class="plus orange">+</p>
+              <ul class="include-list">
+                <li class="include-item">
+                  <p class="include-text">
+                    Персональный аудиоразбор вашей натальной карты (до 20 минут)
+                    с ответами на 1–2 важных вопроса в течение лета по вашей
+                    карте
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Индивидуальная рекомендация по вашему вектору на лето
+                  </p>
+                </li>
+              </ul>
+              <p class="price"><span>$599</span> $199</p>
+              <button class="buy" type="button">купить OPTIMAL</button>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/tariffs/tarif-03-1x.png 1x,
+                    ./src/img/tariffs/tarif-03-2x.png 2x
+                  "
+                  width="180"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/tariffs/tarif-03-1x.png"
+                  alt="image"
+                  width="180"
+                  height="auto"
+              /></picture>
+              <p class="item-title">VIP</p>
+              <p class="item-text">Участие в клубе с мая по август:</p>
+              <ul class="include-list mzero">
+                <li class="include-item">
+                  <p class="include-text">
+                    Прогнозы на месяц и ключевые астрособытия
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Эфиры и тематические вебинары</p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Доступ к Telegram-каналу и чату клуба
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Задания и материалы по темам месяца
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Записи всех встреч</p>
+                </li>
+              </ul>
+              <p class="plus blue">+</p>
+              <ul class="include-list">
+                <li class="include-item">
+                  <p class="include-text">
+                    Индивидуальная консультация в Zoom (30–45 минут)
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Приоритетные ответы на ваши вопросы в чате клуба
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Закрытая встреча только для участниц тарифа VIP и PREMIUM
+                  </p>
+                </li>
+              </ul>
+              <p class="price"><span>$749</span> $249</p>
+              <button class="buy" type="button">купить VIP</button>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/tariffs/tarif-04-1x.png 1x,
+                    ./src/img/tariffs/tarif-04-2x.png 2x
+                  "
+                  width="180"
+                  height="auto" />
+                <img
+                  class="item-img"
+                  src="./src/img/tariffs/tarif-04-1x.png"
+                  alt="image"
+                  width="180"
+                  height="auto"
+              /></picture>
+              <p class="item-title">PREMIUM</p>
+              <p class="item-text">Участие в клубе с мая по август:</p>
+              <ul class="include-list mzero">
+                <li class="include-item">
+                  <p class="include-text">
+                    Прогнозы на месяц и ключевые астрособытия
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Эфиры и тематические вебинары</p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Доступ к Telegram-каналу и чату клуба
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Задания и материалы по темам месяца
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Записи всех встреч</p>
+                </li>
+              </ul>
+              <p class="plus orange">+</p>
+              <ul class="include-list">
+                <li class="include-item">
+                  <p class="include-text">
+                    Персональное сопровождение на весь сезон
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Индивидуальные рекомендации по вашей карте каждый месяц (в
+                    аудиоформате)
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Персональный канал связи: отдельный Telegram-чат
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    Возможность задавать голосовые вопросы и получать голосовые
+                    ответы
+                  </p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">Полная включённость Виктории</p>
+                </li>
+                <li class="include-item">
+                  <p class="include-text">
+                    2 индивидуальные Zoom-консультации по 30–45 минут в течение
+                    лета
+                  </p>
+                </li>
+              </ul>
+              <p class="price"><span>$1499</span> $499</p>
+              <button class="buy" type="button">купить PREMIUM</button>
+            </li>
+          </ul>
+          <p class="best-time">
+            <span>Сейчас — лучшее время присоединиться!</span> <br />
+            На старте продаж тарифы самые выгодные.Через неделю — цена
+            поднимется. Ближе к запуску — снова вырастет
+          </p>
+        </div>
+      </section>
+      <section class="impossible">
+        <div class="container">
+          <h2 class="title">Нет возможности оплатить сразу?</h2>
+          <p class="desc">Можно участвовать помесячно:</p>
+          <picture
+            ><source
+              srcset="
+                ./src/img/power/image-1x.png 1x,
+                ./src/img/power/image-2x.png 2x
+              "
+              width="90"
+              height="auto" />
+            <img
+              class="power-img"
+              src="./src/img/power/image-1x.png"
+              alt="emoji"
+              width="90"
+              height="auto"
+          /></picture>
+          <div class="impossible-wrapper">
+            <p class="impos-price">$75/мес</p>
+            <p class="impos-text">
+              (Но полная цена за 4 месяца — выше, чем в тарифе. Выбирайте, что
+              вам комфортнее)
+            </p>
+            <button class="impos-btn" type="button">купить помесячно</button>
+          </div>
+          <p class="about-tariff">
+            (Например тариф “LITE” за $149 — это $37 в месяц за личное
+            сопровождение в течение 4 месяцев)
+          </p>
+        </div>
+      </section>
+      <section class="for-whom">
+        <div class="container">
+          <h2 class="title">Для кого это пространство</h2>
+          <p class="find-yourself">Узнаёшь себя?</p>
+          <p class="you-here">Ты здесь, если:</p>
+          <ul class="list">
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-01-1x.png 1x,
+                    ./src/img/for-whom/item-01-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-01-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты чувствуешь, что лето — не для паузы, а для старта
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-02-1x.png 1x,
+                    ./src/img/for-whom/item-02-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-02-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты не хочешь откладывать жизнь и готова инвестировать в себя
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-03-1x.png 1x,
+                    ./src/img/for-whom/item-03-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-03-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты хочешь идти по звёздной карте, а не наугад
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-04-1x.png 1x,
+                    ./src/img/for-whom/item-04-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-04-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Тебе важна внутренняя опора, а не внешняя гонка
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-05-1x.png 1x,
+                    ./src/img/for-whom/item-05-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-05-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты хочешь быть в контакте с астрологией — но мягко и без
+                перегруза
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-06-1x.png 1x,
+                    ./src/img/for-whom/item-06-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-06-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты ценишь качество, камерность и живое сопровождение
+              </p>
+            </li>
+            <li class="list-item">
+              <picture
+                ><source
+                  srcset="
+                    ./src/img/for-whom/item-07-1x.png 1x,
+                    ./src/img/for-whom/item-07-2x.png 2x
+                  "
+                  width="36"
+                  height="auto" />
+                <img
+                  class="power-img"
+                  src="./src/img/for-whom/item-07-1x.png"
+                  alt="emoji"
+                  width="36"
+                  height="auto"
+              /></picture>
+              <p class="item-text">
+                Ты хочешь прожить это лето не как всегда, а как точку выбора и
+                усиления
+              </p>
+            </li>
+          </ul>
+          <p class="ready">Готова пройти лето с опорой и ясностью?</p>
+          <a class="btn-choice" href="">Выбрать тариф</a>
+        </div>
+      </section>
     </main>
     <footer class="footer"><div class="container"></div></footer>
+    <script src="./src/js/marquee.js" type="module"></script>
+    <script src="./src/js/program.js" type="module"></script>
   </body>
 </html>
