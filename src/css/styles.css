@@ -84,6 +84,8 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  margin-top: -10px;
 }
 
 .hero .desc {
@@ -99,6 +101,7 @@ body {
 
   margin-bottom: 366px;
   max-width: 332px;
+  margin-top: -6px;
 }
 
 .hero .btn-container {
@@ -291,6 +294,7 @@ body {
 
 .inside {
   padding-top: 110px;
+  padding-bottom: 60px;
 
   position: relative;
 }
