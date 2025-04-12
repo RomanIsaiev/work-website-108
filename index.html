@@ -29,12 +29,12 @@
             <p class="marquee-text">Май – Август 2025</p>
           </div>
           <div class="btn-container">
-            <a class="btn-more" href="">Подробнее о клубе</a
-            ><a class="btn-buy" href="">Присоединиться в клуб</a>
+            <a class="btn-more" href="#more">Подробнее о клубе</a
+            ><a class="btn-buy" href="#tariffs">Присоединиться к клубу</a>
           </div>
         </div>
       </section>
-      <section class="power">
+      <section class="power" id="more">
         <div class="container">
           <h2 class="title">"Место Силы" — это не точка на карте</h2>
           <p class="desc">
@@ -317,7 +317,7 @@
           </div>
         </div>
       </section>
-      <section class="tariffs">
+      <section class="tariffs" id="tariffs">
         <div class="container">
           <h2 class="title">Тарифы</h2>
           <ul class="list">
@@ -363,7 +363,10 @@
                 </li>
               </ul>
               <p class="price"><span>$449</span> $149</p>
-              <button class="buy" type="button">купить LITE</button>
+              <p class="month">(за 4 месяца)</p>
+              <button class="buy" type="button" data-modal-open="modal1">
+                купить LITE
+              </button>
             </li>
             <li class="list-item">
               <picture
@@ -422,7 +425,10 @@
                 </li>
               </ul>
               <p class="price"><span>$599</span> $199</p>
-              <button class="buy" type="button">купить OPTIMAL</button>
+              <p class="month">(за 4 месяца)</p>
+              <button class="buy" type="button" data-modal-open="modal2">
+                купить OPTIMAL
+              </button>
             </li>
             <li class="list-item">
               <picture
@@ -484,7 +490,10 @@
                 </li>
               </ul>
               <p class="price"><span>$749</span> $249</p>
-              <button class="buy" type="button">купить VIP</button>
+              <p class="month">(за 4 месяца)</p>
+              <button class="buy" type="button" data-modal-open="modal3">
+                купить VIP
+              </button>
             </li>
             <li class="list-item">
               <picture
@@ -562,7 +571,10 @@
                 </li>
               </ul>
               <p class="price"><span>$1499</span> $499</p>
-              <button class="buy" type="button">купить PREMIUM</button>
+              <p class="month">(за 4 месяца)</p>
+              <button class="buy" type="button" data-modal-open="modal4">
+                купить PREMIUM
+              </button>
             </li>
           </ul>
           <p class="best-time">
@@ -594,10 +606,12 @@
           <div class="impossible-wrapper">
             <p class="impos-price">$75/мес</p>
             <p class="impos-text">
-              (Но полная цена за 4 месяца — выше, чем в тарифе. Выбирайте, что
+              (Но полная цена (за 4 месяца) — выше, чем в тарифе. Выбирайте, что
               вам комфортнее)
             </p>
-            <button class="impos-btn" type="button">купить помесячно</button>
+            <button class="impos-btn" type="button" data-modal-open="modal5">
+              купить помесячно
+            </button>
           </div>
           <p class="about-tariff">
             (Например тариф “LITE” за $149 — это $37 в месяц за личное
@@ -755,12 +769,108 @@
             </li>
           </ul>
           <p class="ready">Готова пройти лето с опорой и ясностью?</p>
-          <a class="btn-choice" href="">Выбрать тариф</a>
+          <a class="btn-choice" href="#tariffs">Выбрать тариф</a>
         </div>
       </section>
     </main>
+    <div class="backdrop is-hidden" data-modal="modal1">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div id="kwiga-widget-1744445951000"></div>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal2">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div id="kwiga-widget-1744446130000"></div>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal3">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div id="kwiga-widget-1744446263000"></div>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal4">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div id="kwiga-widget-1744446413000"></div>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal="modal5">
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div class="modal-box">
+          <div id="kwiga-widget-1744446656000"></div>
+        </div>
+      </div>
+    </div>
     <footer class="footer"><div class="container"></div></footer>
     <script src="./src/js/marquee.js" type="module"></script>
     <script src="./src/js/program.js" type="module"></script>
+    <script src="./src/js/js-modal.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1744445951000&uuid=06546417-f308-45cd-9895-3242d955766f&producer=https://kwiga.com/"
+    ></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1744446130000&uuid=c5bafec0-2610-4270-af29-692f97dcefb5&producer=https://kwiga.com/"
+    ></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1744446263000&uuid=662baf6a-f7fd-4ee2-a009-2971f366d07a&producer=https://kwiga.com/"
+    ></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1744446413000&uuid=9ebf2556-4b4f-4f4c-bcea-9369f3580660&producer=https://kwiga.com/"
+    ></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1744446656000&uuid=7d93e046-890c-4b72-98f5-32cee2fd776b&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
