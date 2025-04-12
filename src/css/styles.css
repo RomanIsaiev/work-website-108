@@ -67,7 +67,7 @@ body {
   line-height: normal;
   letter-spacing: -1.28px;
 
-  margin-bottom: 14px;
+  margin-bottom: 2px;
 }
 
 .hero .title {
@@ -75,7 +75,7 @@ body {
   font-size: 89.617px;
   font-style: normal;
   font-weight: 400;
-  line-height: 80%;
+  line-height: 100%;
   letter-spacing: -1.792px;
   background: var(
     --Linear,
