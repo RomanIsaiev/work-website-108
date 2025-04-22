@@ -565,6 +565,48 @@ body {
   padding: 50px 32px 40px;
 }
 
+.lite-tag {
+  position: absolute;
+  right: -20px;
+  top: -10px;
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  text-transform: uppercase;
+
+  background-color: red;
+  padding: 6px;
+  border-radius: 10px;
+
+  transform: rotate(5deg);
+}
+
+.optimal-places {
+  position: absolute;
+  right: 10px;
+  bottom: 24px;
+
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  text-transform: uppercase;
+
+  background-color: red;
+  padding: 6px;
+  border-radius: 10px;
+
+  transform: rotate(-9deg);
+}
+
 .tariffs .list-item:nth-child(even) {
   background: #fff7e6;
 }
@@ -843,19 +885,19 @@ body {
 }
 
 .impossible .impossible-wrapper {
-  padding: 24px;
+  padding: 60px 24px;
   border-radius: 10px;
-  background: #ecf2ff;
+  background: #3876f1;
   margin-bottom: 24px;
 }
 
 .impossible .impos-price {
-  color: #090909;
+  color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
   font-family: 'Bebas Neue Cyrillic';
-  font-size: 46px;
+  font-size: 66px;
   font-style: normal;
   font-weight: 400;
   line-height: 90%; /* 41.4px */
@@ -865,7 +907,7 @@ body {
 }
 
 .impossible .impos-text {
-  color: #090909;
+  color: #fff;
   text-align: center;
   leading-trim: both;
   text-edge: cap;
@@ -881,15 +923,15 @@ body {
 
 .impossible .impos-btn {
   display: block;
-  padding: 16px;
-  border-radius: 50px;
-  background: #3a77f2;
+  padding: 24px;
+  border-radius: 60px;
+  background: #ecf2ff;
 
-  color: #fff;
+  color: #1a66fd;
   font-family: 'Helvetica Neue';
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
 
