@@ -958,10 +958,10 @@ body {
 }
 
 .impossible .impossible-wrapper {
-  padding: 60px 24px;
+  padding: 60px 20px 24px;
   border-radius: 10px;
   background: #3876f1;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
 }
 
 .impossible .impos-price {
@@ -1011,7 +1011,25 @@ body {
   border: inherit;
   width: 100%;
   max-width: 260px;
-  margin: 0 auto;
+  margin: 0 auto 10px auto;
+}
+
+.impossible .impos-attention {
+  color: #ffffffa2;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 18px */
+  letter-spacing: -0.3px;
+  margin-bottom: 8px;
+}
+
+.impos-impos {
+  font-size: 20px;
 }
 
 .impossible .about-tariff {
