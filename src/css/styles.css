@@ -654,6 +654,17 @@ body {
   color: #ffc021;
 }
 
+.tariffs .list-item:nth-child(4) {
+  opacity: 50%;
+  color: rgba(211, 211, 211, 0.479);
+  background: rgba(211, 211, 211, 0.473);
+}
+
+.tariffs .list-item:nth-child(4) .buy {
+  color: #090909 !important;
+  font-weight: 700;
+}
+
 .tariffs .item-text {
   color: #090909;
   text-align: center;
@@ -962,6 +973,10 @@ body {
   border-radius: 10px;
   background: #3876f1;
   margin-bottom: 10px;
+
+  opacity: 80%;
+  color: lightgray;
+  background: lightgray;
 }
 
 .impossible .impos-price {

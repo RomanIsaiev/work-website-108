@@ -498,7 +498,7 @@
                 купить VIP
               </button>
             </li>
-            <li class="list-item">
+            <li class="list-item" aria-disabled="true">
               <picture
                 ><source
                   srcset="
@@ -578,9 +578,14 @@
               </ul>
               <p class="price"><span>$1499</span> $799</p>
               <p class="month">(До 1 сентября)</p>
-              <p class="optimal-places prem">Осталось <span>1 место</span></p>
-              <button class="buy" type="button" data-modal-open="modal4">
-                купить PREMIUM
+              <!-- <p class="optimal-places prem">Осталось <span>1 место</span></p> -->
+              <button
+                class="buy"
+                type="button"
+                data-modal-open="modal4"
+                disabled
+              >
+                SOLD OUT
               </button>
             </li>
           </ul>
@@ -638,8 +643,13 @@
               (Но полная цена (за 4 месяца) — выше, чем в тарифе. Выбирайте, что
               вам комфортнее)
             </p>
-            <button class="impos-btn" type="button" data-modal-open="modal5">
-              купить помесячно
+            <button
+              class="impos-btn"
+              type="button"
+              data-modal-open="modal5"
+              disabled
+            >
+              SOLD OUT
             </button>
             <p class="impos-attention">
               <span class="impos-impos">Важно!</span> <br />
